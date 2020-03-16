@@ -6,7 +6,7 @@
 
 .big-container {
     width: 1200px;
-    height: 1200px;
+    /* height: 1200px; */
     background-image: url(img/bg-wood.jpg);
     background-size: cover;
     background-position: center;
@@ -74,7 +74,7 @@ li:hover {
     height: 100%; */
     /* padding: 2%; */
     position: relative;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .content::after {
@@ -87,7 +87,8 @@ li:hover {
     float: left;
     background-color: red;
     width: 20%;
-    height: 200px;
+    height: 600px;
+    margin-top: 2%;
 }
 
 main {
@@ -99,8 +100,42 @@ main {
 }
 
 .sidebar-right {
-    float: left;
+    float: right;
     background-color: red;
     width: 20%;
-    height: 600px;
+    height: 80px;
+    margin-top: 2%;
+    /* padding: 1%; */
+}
+
+.sidebar-right-2 {
+    float: right;
+    background-color: pink;
+    width: 20%;
+    height: 200px;
+    margin-top: 2%;
+}
+
+input[type=text] {
+    float: left;
+    padding: 6px;
+    font-size: 14px;
+    border: none;
+}
+
+button {
+    float: left;
+    padding: 7px 10px;
+    background: #ddd;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
